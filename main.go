@@ -78,7 +78,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/choose"           // 选择困难症帮手
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chouxianghua"     // 说抽象话
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chrev"            // 英文字符翻转
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/coser"            // 三次元小姐姐
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/coser"            // 三次元小姐姐
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/cpstory"          // cp短打
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/dailynews"        // 今日早报
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/danbooru"         // DeepDanbooru二次元图标签识别
@@ -87,16 +87,16 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/drawlots"         // 多功能抽签
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/dress"            // 女装
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/driftbottle"      // 漂流瓶
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/emojimix"         // 合成emoji
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/emojimix"         // 合成emoji
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/event"            // 好友申请群聊邀请事件处理
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/font"             // 渲染任意文字到图片
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/font"             // 渲染任意文字到图片
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/fortune"          // 运势
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/funny"            // 笑话
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/genshin"          // 原神抽卡
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/gif"              // 制图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/github"           // 搜索GitHub仓库
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/guessmusic"       // 猜歌
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/heisi"            // 黑丝
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/heisi"            // 黑丝
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/hitokoto"         // 一言
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/hs"               // 炉石
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/hyaku"            // 百人一首
@@ -226,7 +226,7 @@ func init() {
 	// 直接写死 URL 时，请更改下面第二个参数
 	url := flag.String("u", "ws://127.0.0.1:6700", "Set Url of WSClient.")
 	// 默认昵称
-	adana := flag.String("n", "椛椛", "Set default nickname.")
+	adana := flag.String("n", "玖喵", "Set default nickname.")
 	prefix := flag.String("p", "/", "Set command prefix.")
 	runcfg := flag.String("c", "", "Run from config file.")
 	save := flag.String("s", "", "Save default config to file and exit.")
@@ -258,7 +258,7 @@ func init() {
 	}
 
 	// 通过代码写死的方式添加主人账号
-	// sus = append(sus, 12345678)
+	 sus = append(sus, 2046675605)
 	// sus = append(sus, 87654321)
 
 	// 启用 webui
